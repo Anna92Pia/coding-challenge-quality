@@ -6,6 +6,7 @@ This test project aims at demostrating coding skills and test automation experie
 
 ## Prerequisities
 Required:
+* CodeceptJS
 * Selenium server
 * Java 8 or higher
 * Allure
@@ -13,8 +14,12 @@ Required:
 ## Execution
 
 ###### Running the tests
+Before all, run Selenium server
+```
+$ npm run selenium
+```
 
-In order to run all the test cases in parallel in Chrome and firefox, run
+In order to run all the test cases in parallel in Chrome and Firefox, run
 ```
 $ npm run run:tests:multiple
 ```
