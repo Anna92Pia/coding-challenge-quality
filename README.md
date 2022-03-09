@@ -43,9 +43,5 @@ HEADLESS=false
 ###### Allure report
 In order to create Allure report, once the test run has been finished, run
 ```
-$ allure serve
-```
-and then
-```
-$ allure generate
+$ npm run allure
 ```
