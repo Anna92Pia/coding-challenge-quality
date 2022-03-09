@@ -1,0 +1,256 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646837308636' stop='1646837348979'>
+    <name>QualityMinds Coding Challenge:</name>
+    <title>QualityMinds Coding Challenge:</title>
+    <test-cases>
+        <test-case start='1646837308639' status='passed' stop='1646837320674'>
+            <name>[chrome] Test Case #1 - Navigation to Kontakt page</name>
+            <title>[chrome] Test Case #1 - Navigation to Kontakt page</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1646837311248' status='passed' stop='1646837318071'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837318072' status='passed' stop='1646837320420'>
+                    <name>I click "//nav[@id="top-menu-nav"]//li/a[text()="Kontakt"]"</name>
+                    <title>I click "//nav[@id="top-menu-nav"]//li/a[text()="Kontakt"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837320421' status='passed' stop='1646837320484'>
+                    <name>I grab current url </name>
+                    <title>I grab current url </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837320486' status='passed' stop='1646837320539'>
+                    <name>I see in source "hello@qualityminds.de"</name>
+                    <title>I see in source "hello@qualityminds.de"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837320539' status='passed' stop='1646837320551'>
+                    <name>I switch to </name>
+                    <title>I switch to </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837320552' status='passed' stop='1646837320657'>
+                    <name>I click "//h1/span[text()[contains(.,'Kontakt &amp; Anfahrt')]]"</name>
+                    <title>I click "//h1/span[text()[contains(.,'Kontakt &amp; Anfahrt')]]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837320657' status='passed' stop='1646837320670'>
+                    <name>I grab current url </name>
+                    <title>I grab current url </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837320671' status='passed' stop='1646837320673'>
+                    <name>I assert equal "https://qualityminds.de/kontakt/", "https://qualityminds.de/kontakt/"</name>
+                    <title>I assert equal "https://qualityminds.de/kontakt/", "https://qualityminds.de/kontakt/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646837321553' status='passed' stop='1646837333242'>
+            <name>[chrome] Test Case #2 - Handout download</name>
+            <title>[chrome] Test Case #2 - Handout download</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1646837326119' status='passed' stop='1646837329781'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837329781' status='passed' stop='1646837329985'>
+                    <name>I move cursor to "//nav[@id="top-menu-nav"]//li/a[text()="Portfolio"]"</name>
+                    <title>I move cursor to "//nav[@id="top-menu-nav"]//li/a[text()="Portfolio"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837329986' status='passed' stop='1646837332199'>
+                    <name>I click "//nav[@id="top-menu-nav"]//li/a[text()="Web, Automation &amp; Mobile Testing"]"</name>
+                    <title>I click "//nav[@id="top-menu-nav"]//li/a[text()="Web, Automation &amp; Mobile Testing"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837332199' status='passed' stop='1646837332349'>
+                    <name>I move cursor to "//nav[@id="top-menu-nav"]//li/a[text()="Portfolio"]"</name>
+                    <title>I move cursor to "//nav[@id="top-menu-nav"]//li/a[text()="Portfolio"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837332350' status='passed' stop='1646837332401'>
+                    <name>I wait for element "//nav[@id="top-menu-nav"]//li[contains(@class,"current-menu-ancestor")]/a[text()="Portfolio"]/../descendant::li[contains(@class,"current-menu-parent")]", 10</name>
+                    <title>I wait for element "//nav[@id="top-menu-nav"]//li[contains(@class,"current-menu-ancestor")]/a[text()="Portfolio"]/../descendant::li[contains(@class,"current-menu-parent")]", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837332401' status='passed' stop='1646837332523'>
+                    <name>I see element {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' active-team-tab ')]//div[contains(., 'Web')]}</name>
+                    <title>I see element {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' active-team-tab ')]//div[contains(., 'Web')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837332525' status='passed' stop='1646837332705'>
+                    <name>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' inactive-team-tab ')]//div[contains(., 'Mobile')]}</name>
+                    <title>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' inactive-team-tab ')]//div[contains(., 'Mobile')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837332708' status='passed' stop='1646837332841'>
+                    <name>I see element {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' active-team-tab ')]//div[contains(., 'Mobile')]}</name>
+                    <title>I see element {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' active-team-tab ')]//div[contains(., 'Mobile')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837332841' status='passed' stop='1646837332874'>
+                    <name>I see current url equals "https://qualityminds.de/team_page/wam-testing/"</name>
+                    <title>I see current url equals "https://qualityminds.de/team_page/wam-testing/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837332874' status='passed' stop='1646837333140'>
+                    <name>I click "//*[@id="team-tab-three-title-desktop"]//*[text()="Mobile"]"</name>
+                    <title>I click "//*[@id="team-tab-three-title-desktop"]//*[text()="Mobile"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837333142' status='passed' stop='1646837333194'>
+                    <name>I see element "[download="FLYER FIND THE BUG SESSION"]"</name>
+                    <title>I see element "[download="FLYER FIND THE BUG SESSION"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837333195' status='passed' stop='1646837333240'>
+                    <name>I grab attribute from "[download="FLYER FIND THE BUG SESSION"]", "href"</name>
+                    <title>I grab attribute from "[download="FLYER FIND THE BUG SESSION"]", "href"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837333242' status='passed' stop='1646837333242'>
+                    <name>I assert equal "https://qualityminds.de/app/uploads/2018/11/Find-The-Mobile-Bug-Session.pdf", "https://qualityminds.de/app/uploads/2018/11/Find-The-Mobile-Bug-Session.pdf"</name>
+                    <title>I assert equal "https://qualityminds.de/app/uploads/2018/11/Find-The-Mobile-Bug-Session.pdf", "https://qualityminds.de/app/uploads/2018/11/Find-The-Mobile-Bug-Session.pdf"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646837334216' status='passed' stop='1646837347921'>
+            <name>[chrome] Test Case #3 - Form validation</name>
+            <title>[chrome] Test Case #3 - Form validation</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1646837336160' status='passed' stop='1646837339409'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837339410' status='passed' stop='1646837343074'>
+                    <name>I click "//nav[@id="top-menu-nav"]//li/a[text()="Karriere"]"</name>
+                    <title>I click "//nav[@id="top-menu-nav"]//li/a[text()="Karriere"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837343074' status='passed' stop='1646837343108'>
+                    <name>I see current url equals "https://qualityminds.de/karriere/"</name>
+                    <title>I see current url equals "https://qualityminds.de/karriere/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837343108' status='passed' stop='1646837344885'>
+                    <name>I click ".et_pb_column .et_pb_button_module_wrapper .et_pb_button.qm-button"</name>
+                    <title>I click ".et_pb_column .et_pb_button_module_wrapper .et_pb_button.qm-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837344886' status='passed' stop='1646837344906'>
+                    <name>I see current url equals "https://qualityminds.de/kontaktformular/"</name>
+                    <title>I see current url equals "https://qualityminds.de/kontaktformular/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837344906' status='passed' stop='1646837345139'>
+                    <name>I click ".btn[type="Submit"][value="Jetzt Bewerben"]"</name>
+                    <title>I click ".btn[type="Submit"][value="Jetzt Bewerben"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837345140' status='passed' stop='1646837345199'>
+                    <name>I see number of elements {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' parsley-required ')][contains(., 'Dies ist ein Pflichtfeld.')]}, 4</name>
+                    <title>I see number of elements {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' parsley-required ')][contains(., 'Dies ist ein Pflichtfeld.')]}, 4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837345200' status='passed' stop='1646837346098'>
+                    <name>I fill field "input[placeholder="Vorname*"]", "Anna"</name>
+                    <title>I fill field "input[placeholder="Vorname*"]", "Anna"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837346098' status='passed' stop='1646837346840'>
+                    <name>I fill field "input[placeholder="Nachname*"]", "Testova"</name>
+                    <title>I fill field "input[placeholder="Nachname*"]", "Testova"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837346840' status='passed' stop='1646837346959'>
+                    <name>I click ".btn[type="Submit"][value="Jetzt Bewerben"]"</name>
+                    <title>I click ".btn[type="Submit"][value="Jetzt Bewerben"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837346959' status='passed' stop='1646837346989'>
+                    <name>I see number of elements {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' parsley-required ')][contains(., 'Dies ist ein Pflichtfeld.')]}, 2</name>
+                    <title>I see number of elements {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' parsley-required ')][contains(., 'Dies ist ein Pflichtfeld.')]}, 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837346989' status='passed' stop='1646837347670'>
+                    <name>I fill field "input[placeholder="Email*"]", "abc123"</name>
+                    <title>I fill field "input[placeholder="Email*"]", "abc123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837347671' status='passed' stop='1646837347744'>
+                    <name>I click ".btn[type="Submit"][value="Jetzt Bewerben"]"</name>
+                    <title>I click ".btn[type="Submit"][value="Jetzt Bewerben"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837347744' status='passed' stop='1646837347780'>
+                    <name>I see element {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' btn ')][@type = 'button'][contains(., 'Dateien hochladen')]}</name>
+                    <title>I see element {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' btn ')][@type = 'button'][contains(., 'Dateien hochladen')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837347780' status='passed' stop='1646837347894'>
+                    <name>I attach file {xpath: .//input[@type = 'file']}, "..\..\upload_file_test.txt"</name>
+                    <title>I attach file {xpath: .//input[@type = 'file']}, "..\..\upload_file_test.txt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646837347894' status='passed' stop='1646837347921'>
+                    <name>I wait for element "//*[contains(@class,"dropzone")]/descendant::span[contains(@class,"file-name") and text()="upload_file_test.txt"]", 100</name>
+                    <title>I wait for element "//*[contains(@class,"dropzone")]/descendant::span[contains(@class,"file-name") and text()="upload_file_test.txt"]", 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
